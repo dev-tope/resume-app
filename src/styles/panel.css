@@ -1,0 +1,21 @@
+.panel {
+  /* border: 1px solid; */
+  max-width: 30%;
+  min-width: 30% ;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.upper-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.lower-panel {
+
+}

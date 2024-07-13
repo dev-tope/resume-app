@@ -1,0 +1,45 @@
+.resume {
+  /* border: 1px solid red; */
+  height: 80vh;
+  width: 55%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 4px 16px rgba(0, 0, 0, 0.9);
+  float: right;
+}
+
+.personal {
+  /* border: 1px dotted green; */
+  height: 15%;
+  padding: 15px 0 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-bottom: 2px solid black; */
+}
+
+.education *,
+.professional *,
+.personal * {
+  margin: 1px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.education,
+.professional {
+  height: 35%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.education h1,
+.professional h1 {
+  border-bottom: 2px solid black;
+}
+
+.lower-edu,
+.lower-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
