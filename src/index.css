@@ -15,9 +15,9 @@
 
 body {
   box-sizing: border-box;
-  padding: 10px;
+  padding: 20px;
   margin: 0;
-  border: 1px solid blue;
+  border: 5px solid gray;
   min-height: 100vh;
   width: 100vw;
   color: black;

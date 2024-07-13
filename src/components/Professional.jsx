@@ -22,7 +22,7 @@ export default function Professional({ formData, setFormData, setIsProSaved }) {
  
 
 
-  const expandImg = isFormActive ? 'content-collapse.png' : 'content-expand.png'
+  const expandImg = isFormActive ? 'content-collapse.svg' : 'content-expand.svg'
 
   return (
     <div className="panel">

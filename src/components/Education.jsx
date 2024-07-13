@@ -22,7 +22,7 @@ export default function Education({ formData, setFormData, setIsEduSaved }) {
  
 
 
-  const expandImg = isFormActive ? 'content-collapse.png' : 'content-expand.png'
+  const expandImg = isFormActive ? 'content-collapse.svg' : 'content-expand.svg'
 
   return (
     <div className="panel">

@@ -19,7 +19,7 @@ export default function Personal({ formData, setFormData, setIsPersonalSaved }) 
     e.preventDefault()
   }
 
-  const expandImg = isFormActive ? 'content-collapse.png' : 'content-expand.png'
+  const expandImg = isFormActive ? 'content-collapse.svg' : 'content-expand.svg'
 
   return (
     <div className="panel">
